@@ -22,4 +22,42 @@ form {
     font-size: 2em;
     border: 2px solid hsla(0, 0%, 39%, 0.623);
     border-radius: 4px;
+    margin-bottom: 15px;
+}
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    background-color: hsl(180, 100%, 50%);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: hsl(180, 100%, 40%);
+}
+
+button:active {
+    background-color: hsl(180, 100%, 35%);
+}
+
+#textBox:hover {
+    border: 2px solid hsl(180, 100%, 35%);
+}
+
+#textBox:active {
+
+    border: 2px solid hsl(180, 100%, 35%);
+}
+
+#result {
+    font-size: 1.75em;
+    font-weight:bold;
 }
