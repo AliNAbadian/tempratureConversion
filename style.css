@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color: hsl(240, 100%, 62%)
+}
+
+form {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 80px hsla(0, 0%, 74%, 0.836);
+}
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 39%, 0.623);
+    border-radius: 4px;
+}
